@@ -22,21 +22,32 @@
 // }
 
 // callF()
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// function odd (){
+//     fetch('https://jsonplaceholder.typicode.com/users')
+//     .then(res => res.json())
+//     .then(data => displayData(data))
+// }
+
+// function displayData(data){
+//     console.log(9)
+// }
+
+// console.log(5);
+
+
+
+// console.log(5);
+// setTimeout(odd, 4000)
+
+
 console.log(1);
 console.log(2);
 console.log(3);
-function odd (){
-    fetch('https://jsonplaceholder.typicode.com/users')
-    .then(res => res.json())
-    .then(data => displayData(data))
-}
-
-function displayData(data){
-    console.log(4)
-}
-
+setTimeout(() => {console.log(4);}, 4000)
 console.log(5);
-
-odd()
-
-console.log(5);
+console.log(6);
+console.log(7);
+console.log(9);
